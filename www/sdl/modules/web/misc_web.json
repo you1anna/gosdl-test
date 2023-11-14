@@ -1,0 +1,13 @@
+{
+  "title": "Misc Web",
+  "category": "Web",
+  "description": "Miscellaneous web issues that should be relevant for any web project",
+  "tags" : "WebApp, API",
+  "minimum_risk_required" : "Low Risk",
+  "questions": {
+    "General": [
+      "We do not take member input from a `GET` parameter and display it in a context that may be confusing to a member, or could convince a member to perform a malicious action (Text Injection)",
+      "All content rendered or injected into the page uses SSL/TLS to avoid Mixed Content issues"
+    ]
+  }
+}

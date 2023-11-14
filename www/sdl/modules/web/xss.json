@@ -1,0 +1,15 @@
+{
+  "title": "XSS",
+  "category": "Web",
+  "description": "We are rendering content dynamically via DOM or reflecting content with PHP/Smarty",
+  "tags" : "WebApp, API",
+  "minimum_risk_required" : "Low Risk",
+  "questions": {
+    "General": [
+      "We are using standardized formatting libraries for all output of member-provided data",
+      "We are using proper `Content-Type` headers when rendering content.  e.g. `JSON` should be served with `Content-Type: application/json`",
+      "We have ensured that member input is not echoed or output unencoded on the page",
+      "We have tested member input (things that can be provided by the member - team name, text, etc..) with the value `<script>alert(1);</script>` to ensure there is no XSS present"
+    ]
+  }
+}

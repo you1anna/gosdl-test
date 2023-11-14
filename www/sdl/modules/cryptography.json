@@ -1,0 +1,13 @@
+{
+  "title": "Cryptography",
+  "description": "If You’re Typing the Letters A-E-S Into Your Code You’re Doing It Wrong.",
+  "tags" : "WebApp, API, iOS, Android",
+  "minimum_risk_required" : "Low Risk",
+  "questions": {
+    "General": [
+      "We are not using weak cryptography algorithms DES/3DES or weak hash algorithm MD5/SHA1",
+      "We are storing the currently used algorithm in addition to the encrypted or hashed text, to allow us to roll forward to different algorithms in the future (cryptographic agility).",
+      "We have ensured implementing encryption does not introduce any denial-of-service conditions (e.g. performing cryptography on strings longer than 500 characters)"
+    ]
+  }
+}

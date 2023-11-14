@@ -1,0 +1,12 @@
+{
+  "title": "Information Leakage",
+  "description": "This project or feature involves operating or displaying member information",
+  "tags" : "WebApp, API, iOS, Android",
+  "minimum_risk_required" : "Low Risk", 
+  "questions": {
+    "General": [
+      "This feature does not introduce the ability for a individual (who does not have explicit access) to enumerate or display the existence of other members or member information",
+      "There is no functionality in our feature that returns a raw database entry back to the member"
+    ]
+  }
+}

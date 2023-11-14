@@ -1,0 +1,16 @@
+{
+  "title": "Finance",
+  "category": "Finance",
+  "description": "Finance needs to make sure we can continue to make good with our auditors. Please reach out to #hey-finance if any difficulty with the following",
+  "tags" : "WebApp, API, iOS, Android",
+  "minimum_risk_required" : "Medium Risk", 
+  "questions": {
+    "Liability": [
+      "This feature does not change our financial positions on member accounts."
+    ],
+    "Fraud": [
+      "The revenue events from this feature are tracked in analytics.",
+      "The revenue events can be interrupted or paused for review in the process."
+    ] 
+  }
+}

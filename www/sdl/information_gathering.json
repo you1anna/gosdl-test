@@ -1,0 +1,175 @@
+[
+  {
+    "text": "Project Name",
+    "name": "project_name",
+    "type": "input",
+    "placeholder": "RGD",
+    "required" : true 
+  }, 
+  {
+    "text": "JIRA Epic ID",
+    "name": "jiraepic",
+    "type": "input",
+    "placeholder": "ex: RGD-51996",
+    "required" : true
+  },
+  {
+    "text": "Link to Epic",
+    "name": "spec",
+    "type": "input",
+    "placeholder": "https://rewardgateway.atlassian.net/browse/{ticketId}",
+    "required" : true
+  },
+  {
+    "text": "Components",
+    "name": "jira_components",
+    "type": "select",
+    "options": [
+      {
+        "text": "Choose a component"
+      },
+      {
+        "text": "SmartInsights",
+        "value": "\"SmartInsights\""
+      },
+      {
+        "text": "SmartHub Core Platform",
+        "value": "\"SmartHub Core Platform\""
+      },
+      {
+        "text": "Integrations",
+        "value": "\"Integrations\""
+      },
+      {
+        "text": "Core Platform and Integrations",
+        "value": "\"Core Platform and Integrations\""
+      },
+      {
+        "text": "Login, Registration & SSO",
+        "value": "\"Login, Registration & SSO\""
+      },
+      {
+        "text": "SmartPay",
+        "value": "\"SmartPay\""
+      },
+      {
+        "text": "SmartTech",
+        "value": "\"SmartTech\""
+      },
+      {
+        "text": "[SP] Core",
+        "value": "\"[SP] Core\""
+      },
+      {
+        "text": "[SP] Partner Integrations",
+        "value": "\"[SP] Partner Integrations\""
+      },
+      {
+        "text": "[SP] Flex Benefits",
+        "value": "\"[SP] Flex Benefits\""
+      },
+      {
+        "text": "[SP] Proprietary Benefits: SmartTech",
+        "value": "\"[SP] Proprietary Benefits: SmartTech\""
+      },
+      {
+        "text": "[SP] Proprietary Benefits: CCV",
+        "value": "\"[SP] Proprietary Benefits: CCV\""
+      },
+      {
+        "text": "[SP] Proprietary Benefits: Cycle to Work",
+        "value": "\"[SP] Proprietary Benefits: Cycle to Work\""
+      },
+      {
+        "text": "[SP] Proprietary Benefits: Holiday Trading",
+        "value": "\"[SP] Proprietary Benefits: Holiday Trading\""
+      },
+      {
+        "text": "[SP] Proprietary Benefits: Other",
+        "value": "\"[SP] Proprietary Benefits: Other\""
+      },
+      {
+        "text": "SmartSpending",
+        "value": "\"SmartSpending\""
+      },
+      {
+        "text": "Instant Awards & eCards",
+        "value": "\"Instant Awards & eCards\""
+      },
+      {
+        "text": "Reward Marketplace",
+        "value": "\"Reward Marketplace\""
+      },
+      {
+        "text": "Quality Assurance",
+        "value": "\"Quality Assurance\""
+      },
+      {
+        "text": "DevOps",
+        "value": "\"DevOps\""
+      },
+      {
+        "text": "Alert Center",
+        "value": "\"Alert Center\""
+      },
+      {
+        "text": "Client Onboarding",
+        "value": "\"Client Onboarding\""
+      },
+      {
+        "text": "Client Project",
+        "value": "\"Client Project\""
+      },
+      {
+        "text": "Employee Communications",
+        "value": "\"Employee Communications\""
+      },
+      {
+        "text": "Employee Surveys",
+        "value": "\"Employee Surveys\""
+      },
+      {
+        "text": "Healthcare Cashplan",
+        "value": "\"Healthcare Cashplan\""
+      },
+      {
+        "text": "Helpcenter, Support, FAQs",
+        "value": "\"Helpcenter, Support, FAQs\""
+      },
+      {
+        "text": "Netsuite",
+        "value": "\"Netsuite\""
+      },
+      {
+        "text": "Nominations & File Uploads",
+        "value": "\"Nominations & File Uploads\""
+      },
+      {
+        "text": "Platinum",
+        "value": "\"Platinum\""
+      },
+      {
+        "text": "Recognition",
+        "value": "\"Recognition\""
+      },
+      {
+        "text": "TRS",
+        "value": "\"TRS\""
+      },
+      {
+        "text": "Wellbeing Centre",
+        "value": "\"Wellbeing Centre\""
+      },      {
+        "text": "Xexec",
+        "value": "\"Xexec\""
+      }
+    ]
+  },
+  {
+    "text": "Project Risk",
+    "name": "risk_rating",
+    "type": "input",
+    "placeholder": "to be determined",
+    "readonly": true
+  }
+]

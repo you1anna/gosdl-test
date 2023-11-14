@@ -1,0 +1,22 @@
+{
+  "title": "APIs",
+  "description": "Are you implementing or modifying any APIs?",
+  "tags": "WebApp, API",
+  "minimum_risk_required" : "Low Risk",
+  "questions": {
+    "Input": [
+      "We use the proper HTTP method according to the operation: GET (read), POST (create), PUT/PATCH (replace/update), and DELETE (to delete a record), and respond with 405 Method Not Allowed if the requested method isn't appropriate for the requested resource.",
+      "We have suitable cache headers (Etag / Expires) in place.",
+      "We have set sensible Rate Limit policies (e.g. Quota, Spike Arrest, or Concurrent Rate Limit.",
+      "We avoid using resource IDs for user managed resources, i.e. using /me/orders instead of /member/654321/orders.",
+      "We have checked for auto-increment IDs and enumeration attacks."
+    ],
+    "Access Control Verification": [
+      "We have ensured that a employee / HR administrator can only use this API as intended",
+      "We have ensured that if our API is called by an unauthenticated member / non-permissioned member, that it behaves correctly and denies access appropriately",
+    ],
+    "Output": [
+      "We return the proper status code according to the operation completed (e.g. 200 OK, 400 Bad Request, 401 Unauthorized, 405 Method Not Allowed, etc.)."
+    ]
+  }
+}

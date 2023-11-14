@@ -1,0 +1,26 @@
+{
+  "title": "URL Parsing",
+  "category": "Parsing",
+  "description": "Does your component build/parse URLs, read/write URLs, or operate with/consume URLs?",
+  "tags" : "WebApp, API, iOS, Android",
+  "minimum_risk_required" : "Medium Risk",
+  "questions": {
+    "General": [
+      "We are using a URL-parsing library to load every URL and guaranteeing its validity before operating on it",
+      "We know what type of scheme (HTTP/HTTPS/FTP) we are expecting, so we are guaranteeing that the scheme is being parsed, and validated correctly"
+    ]
+  },
+  "submodules": [
+    {
+      "title": "PHP URL Parsing Guidance",
+      "description": "PHP-specific advice to parsing URLs",
+      "tags" : "WebApp, API",
+      "minimum_risk_required" : "Medium Risk",
+      "questions": {
+        "General": [
+          "We are using `parse_url()` to load all untrusted member-provided URLs before working with them"
+        ]
+      }
+    }
+  ]
+}
